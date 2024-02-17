@@ -3,6 +3,10 @@
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
+.odd.noThree{
+    font-size: 24px;
+}
+
 #noTwo {
     color: blue;
     font-size: 36px;
