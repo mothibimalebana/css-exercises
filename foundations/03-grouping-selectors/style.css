@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+}
+
+.rButton{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.lButton{
+    background-color: yellow;
+    color: black;
+}
+.lButton, .rButton{
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
