@@ -1,4 +1,9 @@
-:nth-child(odd) {
+.odd {
     background-color: pink;
     font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#noTwo {
+    color: blue;
+    font-size: 36px;
 }
