@@ -12,6 +12,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -30,11 +32,11 @@ a {
 .left-links ul {
 display: flex;
 justify-content: space-around;
-gap: 30px;
+gap: 20px;
 }
 
 .right-links ul {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
+  gap: 20px;
   }
