@@ -11,7 +11,30 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
-
+/* Fruits-Section */
+.fruits-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.fruits-section .title{
+  display: flex;
+  justify-content: center;
+  flex: 1 100%;
+}
+.fruits-section .plant-content{
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  gap: 52px;
+}
+.fruits-section .plant-content .barberry, .chilli, .pepper, .saffron{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+  flex-wrap: wrap;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
