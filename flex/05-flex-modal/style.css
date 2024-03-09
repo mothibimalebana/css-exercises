@@ -22,6 +22,20 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.modal .alert .alertHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -31,6 +45,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
