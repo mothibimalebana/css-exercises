@@ -20,8 +20,13 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
+<<<<<<< HEAD
 .modal .alert .alertHeader {
   display: flex;
   justify-content: space-around;
@@ -36,6 +41,44 @@ body {
   justify-content: center;
 }
 
+=======
+/**Alert Header**/
+.modal .alertHeader {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 55px;
+  /**Typography**/
+  font-weight: 700;
+  font-size: large;
+}
+.alertHeader .leftAlertHeader {
+  display: flex;
+  flex: 0 0 80%;
+  align-items: center;
+  gap: 10px;
+}
+
+/**Alert Text**/
+.modal .alertText {
+  display: flex;
+  justify-content: center;
+ 
+}
+.modal .text{
+  display: flex;
+  flex: 0 1 80%;
+}
+
+/**Alert Button**/
+.modal .alertButtons {
+  display: flex;
+  flex: 0 0 60%;
+  gap: 8px;
+  justify-content: center;
+}
+>>>>>>> 6894f3f24499bc2130cf614ac5877f1e5ab4a64c
 .icon {
   color: royalblue;
   font-size: 26px;
