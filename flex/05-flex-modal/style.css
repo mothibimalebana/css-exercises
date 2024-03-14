@@ -20,13 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
 }
 
-<<<<<<< HEAD
 .modal .alert .alertHeader {
   display: flex;
   justify-content: space-around;
@@ -37,7 +32,7 @@ body {
 
 .text {
   display: flex;
-  flex-shrink: 1;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -78,7 +73,7 @@ body {
   gap: 8px;
   justify-content: center;
 }
->>>>>>> 6894f3f24499bc2130cf614ac5877f1e5ab4a64c
+
 .icon {
   color: royalblue;
   font-size: 26px;
